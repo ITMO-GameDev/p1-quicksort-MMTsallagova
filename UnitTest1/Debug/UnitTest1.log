@@ -1,0 +1,29 @@
+﻿  Tests.cpp
+c:\users\admin\documents\visual studio 2015\projects\sort\unittest1\tests.cpp(76): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+c:\users\admin\documents\visual studio 2015\projects\sort\unittest1\tests.cpp(76): warning C4305: инициализация: усечение из "double" к "float"
+c:\users\admin\documents\visual studio 2015\projects\sort\unittest1\tests.cpp(77): warning C4838: преобразование из "double" в "float" требует сужающего преобразования
+c:\users\admin\documents\visual studio 2015\projects\sort\unittest1\tests.cpp(77): warning C4305: инициализация: усечение из "double" к "float"
+c:\users\admin\documents\visual studio 2015\projects\sort\sort\sort.h(30): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  c:\users\admin\documents\visual studio 2015\projects\sort\sort\sort.h(20): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void insertion_sort<T,Compare>(T *,T *,Compare)"
+          with
+          [
+              T=float,
+              Compare=UnitTestLesson1::UnitTestSort::Insert_Float::<lambda_2250604d766c503ac17955a241853b9d>
+          ]
+  c:\users\admin\documents\visual studio 2015\projects\sort\unittest1\tests.cpp(80): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void sort<float,UnitTestLesson1::UnitTestSort::Insert_Float::<lambda_2250604d766c503ac17955a241853b9d>>(T *,T *,Compare)"
+          with
+          [
+              T=float,
+              Compare=UnitTestLesson1::UnitTestSort::Insert_Float::<lambda_2250604d766c503ac17955a241853b9d>
+          ]
+c:\users\admin\documents\visual studio 2015\projects\sort\sort\sort.h(54): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+  c:\users\admin\documents\visual studio 2015\projects\sort\sort\sort.h(22): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void quicksort<T,Compare>(T *,T *,Compare)"
+          with
+          [
+              T=float,
+              Compare=UnitTestLesson1::UnitTestSort::Insert_Float::<lambda_2250604d766c503ac17955a241853b9d>
+          ]
+c:\users\admin\documents\visual studio 2015\projects\sort\sort\sort.h(56): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+     ╤ючфрхЄё  сшсышюЄхър C:\Users\Admin\Documents\Visual Studio 2015\Projects\Sort\Debug\UnitTest1.lib ш юс·хъЄ C:\Users\Admin\Documents\Visual Studio 2015\Projects\Sort\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2015\Projects\Sort\Debug\UnitTest1.dll
+  UnitTest1.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2015\Projects\Sort\Debug\UnitTest1.pdb (Partial PDB)
