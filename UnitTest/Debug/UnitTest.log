@@ -1,0 +1,32 @@
+﻿  unittest1.cpp
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): warning C4996: 'std::copy::_Unchecked_iterators::_Deprecate': Call to 'std::copy' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2372): note:  см. объявление "std::copy::_Unchecked_iterators::_Deprecate"
+  c:\users\admin\documents\visual studio 2015\projects\array\array\header.h(91): note: см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::copy<T*,T*>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=int *,
+              T=int,
+              _InIt=int *
+          ]
+  c:\users\admin\documents\visual studio 2015\projects\array\array\header.h(84): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\admin\documents\visual studio 2015\projects\array\unittest\unittest1.cpp(54): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void Array<int>::insert(int,const T &)"
+          with
+          [
+              T=int
+          ]
+  c:\users\admin\documents\visual studio 2015\projects\array\unittest\unittest1.cpp(15): note: см. ссылку на создание экземпляров класса шаблон при компиляции "Array<int>"
+c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2636): warning C4996: 'std::move::_Unchecked_iterators::_Deprecate': Call to 'std::move' with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\xutility(2636): note:  см. объявление "std::move::_Unchecked_iterators::_Deprecate"
+  c:\users\admin\documents\visual studio 2015\projects\array\array\header.h(145): note: см. ссылку на создание экземпляров функции шаблон при компиляции "_OutIt std::move<T*,T*>(_InIt,_InIt,_OutIt)"
+          with
+          [
+              _OutIt=int *,
+              T=int,
+              _InIt=int *
+          ]
+  c:\users\admin\documents\visual studio 2015\projects\array\array\header.h(141): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\admin\documents\visual studio 2015\projects\array\array\header.h(89): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void Array<int>::expandArray(void)"
+  c:\users\admin\documents\visual studio 2015\projects\array\array\header.h(63): note: при компиляции функции-члена "<Нет данных>" класса <Нет данных>
+  c:\users\admin\documents\visual studio 2015\projects\array\unittest\unittest1.cpp(22): note: см. ссылку на создание экземпляров функции шаблон при компиляции "Array<int>::Array(int)"
+  UnitTest.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2015\Projects\Array\Debug\UnitTest.dll
+  UnitTest.vcxproj -> C:\Users\Admin\Documents\Visual Studio 2015\Projects\Array\Debug\UnitTest.pdb (Partial PDB)
